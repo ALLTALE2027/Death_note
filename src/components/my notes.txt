@@ -1,0 +1,36 @@
+uselocation
+ -instead of it we can use Navlink to toggle active in navbar for home about etc.
+ -    
+      <NavLink className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link '} aria-current="page" to="/" > Home  </NavLink>
+   
+ -  <Link className={`nav-link ${location.pathname === "/" ? "active" : "" }`}  aria-current="page"  to="/" >Home</Link>  
+
+
+... are called spread attributes which, as the name represents, it allows an expression to be expanded.
+ - var person= {name: 'Alex',age: 35 }
+ - This:
+    <Modal {...person} title='Modal heading' animation={false} />
+
+ is equal to
+
+ <Modal name={person.name} age={person.age} title='Modal heading' animation={false} />
+    
+    
+
+                 
+                    
+                 
+                 
+                
+
+                  
+                 
+                  
+                    
+                 
+                
+                  
+               
+            
+             
+

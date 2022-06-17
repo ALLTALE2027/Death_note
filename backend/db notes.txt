@@ -1,0 +1,6 @@
+middleware-->are functions which are passed control during execution of asynchronous functions. Middleware is specified on the schema level and is useful for writing plugins.
+ - if we ant to use req.body()   --> we have to use a middleware-- which is for ex.  app.use(express.json())
+
+
+promise
+ - if a fn returns a promise we have to use await.
